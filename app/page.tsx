@@ -144,7 +144,7 @@ export default function Home() {
           <div className="w-12 h-[2px] bg-[var(--accent)] mt-2 mb-10" />
 
           <p className="max-w-2xl text-[var(--muted)] leading-relaxed">
-            I’m a CS + Psychology student interested in building technology that
+            I’m a Computer Science & Psychology student interested in building technology that
             supports real people and real decisions. I care about clarity — in
             interfaces, in systems, and in the data behind them — especially in
             spaces where technology intersects with healthcare and wellbeing.
