@@ -71,7 +71,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg text-[var(--muted)]">
-            CS + Psychology student interested in healthcare technology, analytics,
+            Computer Science & Psychology student interested in healthcare technology, analytics,
             and human-centered web products.
           </p>
 
