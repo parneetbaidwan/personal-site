@@ -221,9 +221,13 @@ export default function Home() {
           <div className="w-12 h-[2px] bg-[var(--accent)] mt-2 mb-10" />
 
           <div className="flex flex-col gap-2 text-[var(--muted)]">
-            <a href="parneetbaidwan1@gmail.com" className="hover:text-[var(--accent)] transition">
-              parneetbaidwan1@gmail.com
-            </a>
+          <a
+  href="mailto:parneetbaidwan@gmail.com?subject=Portfolio%20Inquiry"
+  className="hover:text-[var(--accent)] transition"
+>
+  parneetbaidwan@gmail.com
+</a>
+
             <a href="https://www.linkedin.com/in/parneetbaidwan824/" className="hover:text-[var(--accent)] transition">
               LinkedIn
             </a>
