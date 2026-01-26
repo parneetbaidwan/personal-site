@@ -36,6 +36,7 @@ export default function Home() {
             <a href="#work" className="hover:text-[var(--accent)] transition">Work</a>
             <a href="#about" className="hover:text-[var(--accent)] transition">About</a>
             <a href="#contact" className="hover:text-[var(--accent)] transition">Contact</a>
+            <a href="/writing" className="hover:text-[var(--accent)] transition">Writing</a>
           </div>
         </nav>
 
