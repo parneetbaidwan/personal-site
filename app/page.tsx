@@ -1,3 +1,5 @@
+import ThemeToggle from "../components/ThemeToggle";
+
 type Project = {
   title: string;
   role: string;
@@ -49,20 +51,18 @@ export default function Home() {
           <span className="text-sm font-semibold tracking-tight text-[var(--text)]">
             Parneet Baidwan
           </span>
-          <div className="flex gap-6 text-sm text-[var(--muted)]">
-            <a href="#work" className="hover:text-[var(--accent)] transition">
-              Work
-            </a>
-            <a href="#about" className="hover:text-[var(--accent)] transition">
-              About
-            </a>
-            <a href="/writing" className="hover:text-[var(--accent)] transition">
-              Writing
-            </a>
-            <a href="#contact" className="hover:text-[var(--accent)] transition">
-              Contact
-            </a>
-          </div>
+
+          <div className="flex items-center gap-6">
+  <div className="flex gap-6 text-sm text-[var(--muted)]">
+    <a href="#work" className="hover:text-[var(--accent)] transition">Work</a>
+    <a href="#about" className="hover:text-[var(--accent)] transition">About</a>
+    <a href="/writing" className="hover:text-[var(--accent)] transition">Writing</a>
+    <a href="#contact" className="hover:text-[var(--accent)] transition">Contact</a>
+  </div>
+
+  <ThemeToggle />
+</div>
+
         </nav>
 
         {/* HERO */}
@@ -72,7 +72,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg text-[var(--muted)]">
-            CS + Psychology student focused on frontend, analytics, and product
+            Computer Science & Psychology student focused on frontend, analytics, and product
             thinking. I care about clean UX, strong architecture, and measurable
             outcomes.
           </p>
@@ -149,18 +149,23 @@ export default function Home() {
           <div className="w-12 h-[2px] bg-[var(--accent)] mt-2 mb-10" />
 
           <p className="max-w-2xl text-[var(--muted)] leading-relaxed">
-            I’m a CS + Psychology student who enjoys building products that feel
-            calm, fast, and intentional. I care deeply about clarity — in code,
-            in design, and in decisions — and I’m especially interested in work
-            that sits at the intersection of technology, data, and human
-            behaviour.
+          Computer Science & Psychology student building frontend products and analytics-driven tools.
+I focus on clean UX, maintainable architecture, and decisions grounded in data.
+
+Calm interfaces. Clear metrics. Quiet power.
           </p>
+
+          <p className="mt-6 text-[var(--muted)]">
+  Additional training in full-stack development, UX, and analytics through
+  Coursera and IBM professional certificates.
+</p>
+
 
           {/* Leadership & Impact */}
           <div className="mt-10 grid gap-8 max-w-3xl">
             <div className="rounded-2xl border border-[var(--border)] p-6">
               <h3 className="text-sm font-semibold text-[var(--accent)] uppercase tracking-wide">
-                Leadership
+                Leadershipß
               </h3>
               <p className="mt-3 text-[var(--muted)] leading-relaxed">
                 Co-Chair of SheHacks+, Canada’s largest all-female and

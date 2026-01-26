@@ -1,5 +1,6 @@
-// ✅ UPDATED FILE 2: src/app/writing/page.tsx
-// No change required, but included here for completeness
+
+import ThemeToggle from "../../components/ThemeToggle";
+
 
 type WritingItem = {
     title: string;
@@ -32,12 +33,17 @@ type WritingItem = {
     return (
       <main className="min-h-screen bg-[var(--bg)] text-[var(--text)]">
         <div className="mx-auto max-w-3xl px-6 py-20">
-          <a
-            href="/"
-            className="text-sm text-[var(--muted)] hover:text-[var(--accent)] transition"
-          >
-            ← Back
-          </a>
+        <div className="flex items-center justify-between">
+  <a
+    href="/"
+    className="text-sm text-[var(--muted)] hover:text-[var(--accent)] transition"
+  >
+    ← Back
+  </a>
+
+  <ThemeToggle />
+</div>
+
   
           <h1 className="mt-12 text-4xl font-bold text-[var(--accent)]">
             Writing
