@@ -162,7 +162,7 @@ export default function Home() {
           </p>
 
           <p className="mt-6 text-[var(--muted)]">
-            Additional training in full-stack development, UX, and analytics through
+            I also have additional training in full-stack development, UX, and analytics through
             Coursera and IBM professional certificates.
           </p>
 
@@ -188,30 +188,13 @@ export default function Home() {
                 Product & Project Management
               </h3>
               <p className="mt-3 text-[var(--muted)] leading-relaxed">
-                Software Project Manager for Fund Homecare Canada, leading a team
+                Software Project Manager and Web Developer for Fund Homecare Canada, leading a team
                 building analytics systems for data-informed healthcare decisions.
               </p>
             </div>
           </div>
         </section>
 
-        {/* EXPERIENCE */}
-        <section className="py-20 border-t border-[var(--border)]">
-          <h2 className="text-xl font-semibold tracking-tight text-[var(--accent)]">
-            Selected Experience
-          </h2>
-          <div className="w-12 h-[2px] bg-[var(--accent)] mt-2 mb-10" />
-
-          <ul className="space-y-3 text-[var(--muted)]">
-            {experience.map((e) => (
-              <li key={`${e.title}-${e.org}`} className="flex gap-2">
-                <span className="font-medium text-[var(--text)]">{e.title}</span>
-                <span>—</span>
-                <span>{e.org}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
 
         {/* CONTACT */}
         <section id="contact" className="py-20 border-t border-[var(--border)]">
