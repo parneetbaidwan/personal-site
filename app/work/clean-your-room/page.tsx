@@ -57,14 +57,7 @@ export default function CleanYourRoomCaseStudy() {
             </ul>
           </section>
   
-          <section className="mt-12">
-            <h2 className="text-xl font-semibold text-[var(--accent)]">Next improvements</h2>
-            <ul className="mt-4 list-disc list-inside space-y-2 text-[var(--muted)]">
-              <li>Add screenshots and a short gameplay demo clip.</li>
-              <li>Include a simple diagram of the module structure.</li>
-              <li>Write a short “how to run locally” section.</li>
-            </ul>
-          </section>
+          
   
           <footer className="mt-16 pt-10 border-t border-[var(--border)] text-sm text-[var(--muted)]">
             <a href="/" className="hover:text-[var(--accent)] transition">
