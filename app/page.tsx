@@ -11,7 +11,7 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Fund Homecare Analytics",
-    role: "Software Project Manager",
+    role: "Software Project Manager & Web Developer",
     description:
       "A unified cross-platform marketing analytics dashboard used to track demographics, donations, and optimal posting times.",
     tags: ["Next.js", "GA4", "APIs", "Analytics"],
@@ -27,18 +27,17 @@ const projects: Project[] = [
   },
   {
     title: "Personal Website",
-    role: "Designer + Developer",
+    role: "Designer & Developer",
     description:
-      "Minimal, fast, and intentional — built to present work clearly and professionally.",
+      "Minimal, fast, and intentional. Built to present work clearly and professionally.",
     tags: ["Next.js", "Tailwind", "Design"],
     href: "#",
   },
 ];
 
 const experience = [
-  { title: "Software Project Manager", org: "Fund Homecare Canada" },
+  { title: "Software Project Manager & Web Developer", org: "Fund Homecare Canada" },
   { title: "Co-Chair", org: "SheHacks+" },
-  { title: "Web / Product Work", org: "Tech for Social Impact" },
 ];
 
 export default function Home() {
@@ -76,7 +75,7 @@ export default function Home() {
           </p>
 
           <p className="mt-4 max-w-2xl text-[var(--muted)] italic">
-            Calm interfaces. Clear metrics. Quiet power.
+            Calm interfaces. Clear metrics.
           </p>
 
           <div className="mt-12 flex flex-wrap gap-4">
@@ -144,8 +143,8 @@ export default function Home() {
           <div className="w-12 h-[2px] bg-[var(--accent)] mt-2 mb-10" />
 
           <p className="max-w-2xl text-[var(--muted)] leading-relaxed">
-            I’m a Computer Science & Psychology student interested in building technology that
-            supports real people and real decisions. I care about clarity — in
+            I am a Computer Science & Psychology student interested in building technology that
+            supports real people and real decisions. I care about clarity in
             interfaces, in systems, and in the data behind them — especially in
             spaces where technology intersects with healthcare and wellbeing.
           </p>
@@ -153,17 +152,13 @@ export default function Home() {
           <p className="mt-4 max-w-2xl text-[var(--muted)] leading-relaxed">
             My work blends frontend development, analytics, and product thinking.
             I enjoy translating complex requirements into calm, usable tools that
-            teams can trust and understand.
+            teams can trust and understand. I also have additional training in full-stack development, UX, and analytics through
+            Coursera and IBM professional certificates.
           </p>
 
           <p className="mt-4 max-w-2xl text-[var(--muted)] leading-relaxed">
             Outside of building, I lead technical and community-driven projects
             and I’m motivated by work that is thoughtful, ethical, and human-centered.
-          </p>
-
-          <p className="mt-6 text-[var(--muted)]">
-            I also have additional training in full-stack development, UX, and analytics through
-            Coursera and IBM professional certificates.
           </p>
 
           <p className="mt-6 text-[var(--muted)] italic">
