@@ -23,7 +23,7 @@ const projects: Project[] = [
     description:
       "A modular Java adventure game built with clean architecture, documentation, and structured design.",
     tags: ["Java", "OOP", "Design"],
-    href: "/work/clean-your-room",
+    href: "/work/cleanyourroom",
   },
   {
     title: "Personal Website",
