@@ -56,6 +56,7 @@ export default function Home() {
               <a href="#work" className="hover:text-[var(--accent)] transition">Work</a>
               <a href="#about" className="hover:text-[var(--accent)] transition">About</a>
               <a href="/writing" className="hover:text-[var(--accent)] transition">Writing</a>
+              <a href="/ParneetBaidwan.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] transition"></a>
               <a href="#contact" className="hover:text-[var(--accent)] transition">Contact</a>
             </div>
 
@@ -86,10 +87,12 @@ export default function Home() {
               View work
             </a>
             <a
-              href="/resume.pdf"
+              href="/ParneetBaidwan.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-xl border border-[var(--accent)] px-6 py-3 text-sm font-semibold text-[var(--accent)] hover:bg-[var(--accent)] hover:text-white transition"
             >
-              Resume
+              Download Resume
             </a>
           </div>
         </section>
