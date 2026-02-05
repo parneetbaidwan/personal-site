@@ -133,9 +133,7 @@ export default function FundHomecareCaseStudy() {
               <li>Created a shared “source of truth” for stakeholders and the team.</li>
             </ul>
   
-            <p className="mt-4 text-sm text-[var(--muted)]">
-              (If you want, we can add real numbers later—only if you’re comfortable and it’s accurate.)
-            </p>
+            
           </section>
   
           {/* Reflection */}
