@@ -47,22 +47,20 @@ export default function Home() {
 
         {/* NAV */}
         <nav className="flex items-center justify-between">
-          <span className="text-sm font-semibold tracking-tight text-[var(--text)]">
+          <span className="text-sm font-semibold tracking-tight">
             Parneet Baidwan
           </span>
 
-          <div className="flex items-center gap-6">
-            <div className="flex gap-6 text-sm text-[var(--muted)]">
-              <a href="#work" className="hover:text-[var(--accent)] transition">Work</a>
-              <a href="#about" className="hover:text-[var(--accent)] transition">About</a>
-              <a href="/writing" className="hover:text-[var(--accent)] transition">Writing</a>
-              <a href="/ParneetBaidwan.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] transition"></a>
-              <a href="#contact" className="hover:text-[var(--accent)] transition">Contact</a>
-            </div>
+          <div className="flex items-center gap-4 text-sm">
+            <a href="#work" className="hover:opacity-70 transition">Work</a>
+            <a href="#about" className="hover:opacity-70 transition">About</a>
+            <a href="/writing" className="hover:opacity-70 transition">Writing</a>
+            <a href="#contact" className="hover:opacity-70 transition">Contact</a>
 
             <ThemeToggle />
           </div>
         </nav>
+
 
         {/* HERO */}
         <section className="pt-24 pb-24">
